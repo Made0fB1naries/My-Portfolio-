@@ -1,6 +1,6 @@
 [https://kessenky.pages.dev/]
 
-this is for my portfolio for the future using github with cloudflare,
+this is for my portfolio for the future using github with cloudflare pages,
 Now V3!!, had to rehaul everything again :3
 
 
