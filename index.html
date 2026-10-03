@@ -61,6 +61,7 @@ nav .wrap{display:flex;align-items:center;justify-content:space-between;height:6
 .chip{display:inline-flex;align-items:center;gap:8px;white-space:nowrap;border:1px solid var(--line);border-radius:12px;padding:7px 12px;font-size:.88rem;transition:border-color .2s,background .2s}
 .chip:hover{border-color:#52525b;background:#16161a}
 .chip img,.chip svg{width:18px;height:18px;flex:none}
+.chip img.inv{filter:invert(1)}
 .sep{margin:56px 0 20px;font-size:1.3rem}
 
 /* certs */
@@ -162,10 +163,11 @@ footer{padding:28px 0;text-align:center;color:#6b6b73;font-size:.85rem;border-to
       </div></div>
       <div class="group"><h3>Backend</h3><div class="chips">
         <span class="chip"><img src="https://cdn.simpleicons.org/supabase/ffffff" alt="">Supabase</span>
+        <span class="chip"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" alt="" onerror="this.onerror=null;this.src='https://cdn.jsdelivr.net/gh/zeabur/service-icons@main/marketplace/postgresql.svg'">PostgreSQL</span>
       </div></div>
       <div class="group"><h3>Hosting & infrastructure</h3><div class="chips">
-        <span class="chip"><img src="https://cdn.simpleicons.org/streamlit/ffffff" alt="" onerror="this.style.display='none'">Streamlit Community Cloud</span>
-        <span class="chip"><img src="https://cdn.simpleicons.org/cloudflare/ffffff" alt="" onerror="this.style.display='none'">Cloudflare Pages</span>
+        <span class="chip"><img class="inv" src="https://cdn.jsdelivr.net/npm/simple-icons@13/icons/streamlit.svg" alt="" onerror="this.onerror=null;this.classList.remove('inv');this.src='https://cdn.simpleicons.org/streamlit/ffffff'">Streamlit Community Cloud</span>
+        <span class="chip"><img class="inv" src="https://cdn.jsdelivr.net/npm/simple-icons@13/icons/cloudflare.svg" alt="" onerror="this.onerror=null;this.classList.remove('inv');this.src='https://cdn.simpleicons.org/cloudflare/ffffff'">Cloudflare Pages</span>
       </div></div>
       <div class="group"><h3>Dev tools</h3><div class="chips">
         <span class="chip"><img src="https://cdn.simpleicons.org/github/ffffff" alt="">GitHub</span>
