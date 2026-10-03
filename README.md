@@ -1,7 +1,7 @@
 [https://kessenky.pages.dev/]
 
 this is for my portfolio for the future using github with cloudflare,
-Now V2!!, had to rehaul everything to look minimal and less code :3
+Now V3!!, had to rehaul everything again :3
 
 
 Code is MIT licensed (see LICENSE).
