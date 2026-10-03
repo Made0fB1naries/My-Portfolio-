@@ -34,16 +34,6 @@ nav .wrap{display:flex;align-items:center;justify-content:space-between;height:6
 .btn.ghost:hover{border-color:#fff;opacity:1}
 @media(max-width:720px){.links{display:none}}
 
-/* hero */
-#hero{min-height:100vh;display:flex;align-items:center;padding:120px 0 80px;background:radial-gradient(60% 50% at 50% 0,#1a1a1d 0,transparent 70%)}
-.hero-in{animation:rise .9s cubic-bezier(.2,.7,.2,1) both}
-@keyframes rise{from{opacity:0;transform:translateY(18px)}}
-.status{display:inline-flex;align-items:center;gap:8px;border:1px solid var(--line);border-radius:999px;padding:6px 14px;font-size:.85rem;color:var(--muted);margin-bottom:28px}
-.dot{width:8px;height:8px;border-radius:50%;background:#4ade80;box-shadow:0 0 0 4px rgba(74,222,128,.15)}
-#hero h1{font-size:clamp(2.8rem,8vw,5.6rem);max-width:12ch;margin-bottom:24px}
-#hero p{color:var(--muted);font-size:1.15rem;max-width:46ch;margin-bottom:36px}
-.row{display:flex;gap:12px;flex-wrap:wrap}
-
 /* about */
 .about{display:grid;grid-template-columns:260px 1fr;gap:56px;align-items:center}
 .about img{width:100%;aspect-ratio:1;object-fit:cover;border-radius:28px;border:1px solid var(--line)}
@@ -113,19 +103,6 @@ footer{padding:28px 0;text-align:center;color:#6b6b73;font-size:.85rem;border-to
     <a href="#contact" class="btn">Hire me</a>
   </div>
 </nav>
-
-<main>
-<section id="hero">
-  <div class="wrap hero-in">
-    <div class="status"><span class="dot"></span>Open to freelance work</div>
-    <h1>Developer & Graphic Designer.</h1>
-    <p>Second-year Computer Science student building web apps and designing publication materials for posts.</p>
-    <div class="row">
-      <a href="#projects" class="btn">View projects</a>
-      <a href="#about" class="btn ghost">About me</a>
-    </div>
-  </div>
-</section>
 
 <section id="about">
   <div class="wrap">
